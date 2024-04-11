@@ -157,6 +157,10 @@ body::after {
   transform: scale(1);
 }
 
+.dex-r{
+border-radius: 100%;
+}
+
 .make{
     height: 300px;
 }
