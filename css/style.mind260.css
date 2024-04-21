@@ -1992,6 +1992,7 @@ span.orange {
   visibility: hidden;
   scale: 0;
 }
+
 .item-items._watcher-view .item-items__title span:nth-child(1) {
   -webkit-animation: text 0.3s ease 0.2s forwards;
   animation: text 0.3s ease 0.2s forwards;
@@ -2053,8 +2054,7 @@ span.orange {
   visibility: hidden !important;
 }
 .item-items._watcher-view:nth-child(3) .item-items__title span:nth-child(5) {
-  opacity: 0 !important;
-  visibility: hidden !important;
+
 }
 .item-items__title span {
   display: inline-block;
@@ -4297,6 +4297,27 @@ span.orange {
   .item-items {
     padding: 0.9375rem;
   }
+  .item-items__tite{
+    margin-bottom: 1.25rem;
+  }
+  .item-items__tite span{
+    font-size: 2.5rem;
+    display: inline-block;
+    color: #fff;
+    font-family: "TT Trailers Trial Black";
+    font-weight: 900;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-shadow: 0.0344827586em 0.1034482759em 0 #000, -0.0344827586em 0.1034482759em 0 #000, -0.0344827586em 0.0344827586em 0 #000, -0.0344827586em -0.0344827586em 0 #000, 0.0344827586em -0.0344827586em 0 #000;
+    opacity: 0;
+    visibility: hidden;
+    scale: 0;
+  }
+
+  .item-items._watcher-view .item-items__tite span:nth-child(8) {
+    -webkit-animation: text 0.3s ease 0.55s forwards;
+    animation: text 0.3s ease 0.55s forwards;
+}
   .item-items__title {
     margin-bottom: 1.25rem;
   }
