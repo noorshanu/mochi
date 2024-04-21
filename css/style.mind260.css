@@ -1428,13 +1428,13 @@ span.orange {
   transform: translateY(100%);
 }
 .content-buy-mochi__image-text {
-  position: relative;
+  /* position: relative;
   width: 76%;
   min-width: 13.625rem;
   aspect-ratio: 218/138;
   -webkit-transform: translateY(2.125rem);
   -ms-transform: translateY(2.125rem);
-  transform: translateY(2.125rem);
+  transform: translateY(2.125rem); */
 }
 .content-buy-mochi__image-text img {
   position: absolute;
