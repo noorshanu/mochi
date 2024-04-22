@@ -1427,6 +1427,14 @@ span.orange {
   -ms-transform: translateY(100%);
   transform: translateY(100%);
 }
+
+.relative{
+  position: relative;
+}
+
+.z-20{
+z-index: 20;
+}
 .content-buy-mochi__image-text {
   /* position: relative;
   width: 76%;
